@@ -1,0 +1,31 @@
+[
+  {
+    "appointment": {
+      "department": "Dentist",
+      "date": "2026-01-30",
+      "time": "15:00",
+      "tz": "Asia/Kolkata"
+    },
+    "status": "ok"
+  },
+  {
+    "input": "book dentist nxt Friday @ 3 pm",
+    "status": "needs_clarification",
+    "message": "Ambiguous or missing date/time/department"
+  },
+  {
+    "input": "Schedule appointment with dentist tomorrow at 10 am",
+    "status": "needs_clarification",
+    "message": "Unable to normalize date or time"
+  },
+  {
+    "input": "Book doctor next Monday",
+    "status": "needs_clarification",
+    "message": "Ambiguous or missing date/time/department"
+  },
+  {
+    "input": "Book dentist at 4pm",
+    "status": "needs_clarification",
+    "message": "Ambiguous or missing date/time/department"
+  }
+]
